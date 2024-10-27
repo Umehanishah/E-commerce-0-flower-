@@ -1,0 +1,26 @@
+/* Base Styles */
+body {
+    scroll-behavior: smooth; /* Enables smooth scroll for anchor links */
+}
+
+/* Jump Hover on Nav Links */
+nav ul li a {
+    text-decoration: none;
+    color: #fd5672;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f87087;
+    transform: translateY(-5px); /* Jump effect */
+    transition: transform 0.3s ease;
+}
+
+/* Smooth transition for buttons */
+.button:hover {
+    background: #f87087;
+    transform: scale(1.05); /* Slight enlargement */
+    transition: all 0.3s ease;
+}
+
+/* Other existing styles remain the same */
